@@ -67,13 +67,13 @@ export default function ResumeFlow() {
                   <li
                     className="mt-1 leading-normal text-black transition duration-100 ease-in text-gray-500 text-md hover:text-gray-700 print:"
                   >
-                    <a href="https://thomasleonhighbaugh.me" className="group">
+                    <a href="https://rammohanholagundi.com" className="group">
                       <span
                         className="mr-2 text-lg font-semibold text-gray-700 leading-snugish"
                       >
                         Portfolio:
                       </span>
-                      thomasleonhighbaugh.me
+                      rammohanholagundi.com
                       <span
                         className="inline-block font-normal text-black transition duration-100 ease-in text-gray-500 print:text-black group-hover:text-gray-700 print:"
                       >
@@ -90,7 +90,7 @@ export default function ResumeFlow() {
                       >
                         Github:
                       </span>
-                      Thomashighbaugh
+                        hrm123
                       <span
                         className="inline-block font-normal text-black transition duration-100 ease-in text-gray-500 print:text-black group-hover:text-gray-700 print:"
                       >
@@ -108,7 +108,7 @@ export default function ResumeFlow() {
                       >
                         Email:
                       </span>
-                      thighbaugh@zoho.com
+                      hrammohan@yahoo.com
                       <span
                         className="inline-block font-normal transition duration-100 ease-in text-gray-500 print:text-black group-hover:text-gray-700"
                       >
@@ -123,9 +123,9 @@ export default function ResumeFlow() {
                       <span
                         className="mr-5 text-lg font-semibold text-gray-700 leading-snugish"
                       >
-                        Phone:
+                        Linkedin:
                       </span>
-                      +1(510)309-5128
+                      www.linkedin.com/in/rammohanholagundi/
                     </a>
                   </li>
                 </ul>
@@ -144,10 +144,7 @@ export default function ResumeFlow() {
 
               <section className="mb-2 break-inside-avoid">
                 <p className="mt-2 leading-normal text-gray-700 text-md">
-                  Full stack autodiadact with demonstrable capacity to assess
-                  and manage complex business needs and surmount obstacles in
-                  the way thereof thus producing refined and accessible work
-                  products.
+                Over 20+ years of full stack work experience (.NET / Javascript stack, SQL, NoSql etc) in developing/ architecting/ maintaining/ supporting including web, mobile, web services, distributed, multi-threaded, high performance/throughput applications.
                 </p>
               </section>
             </section>
@@ -163,52 +160,15 @@ export default function ResumeFlow() {
                   EDUCATION
                 </h2>
                 {/* school ------------------------------------------------------------------------*/}
-                <section className="mt-2  border-b-2 break-inside-avoid">
-                  <header>
-                    <h3
-                      className=" text-lg font-semibold text-gray-700 leading-snugish"
-                    >
-                      California State University East Bay
-                    </h3>
-                    <p className="leading-normal text-md text-gray-500">
-                      2009 &ndash; 2014 | Bachelor of Arts
-                    </p>
-                  </header>
-                  <p className="mt-1 leading-normal text-md text-gray-800">
-                    <span
-                      className="font-semibold text-gray-700 text-md leading-snugish"
-                    >
-                      Major:
-                    </span>
-                    Political Science
-                  </p>
-                  <p className="mt-1 leading-normal text-md text-gray-800">
-                    <span
-                      className="font-semibold text-gray-700 text-md leading-snugish"
-                    >
-                      Minor:
-                    </span>
-                    Economics
-                  </p>
-                  <p className="leading-normal text-gray-700 text-md">
-                    <span
-                      className="font-semibold text-gray-700 text-md leading-snugish"
-                    >
-                      GPA:
-                    </span>
-                    3.9
-                  </p>
-                </section>
-                {/*school 2------------------------------------------------------------------------------------------*/}
                 <section className="pb-4 mt-4 mb-4 border-b-2 break-inside-avoid">
                   <header>
                     <h3
                       className="flex-grow text-lg font-semibold text-gray-700 leading-snugish"
                     >
-                      Las Positas Community College
+                      Stanford University
                     </h3>
                     <p className="leading-normal text-md text-gray-500">
-                      2018 &ndash; Present | Associate of Science/Continuing
+                      2022  | Algorithms Specialization
                       Education
                     </p>
                   </header>
@@ -218,7 +178,7 @@ export default function ResumeFlow() {
                     >
                       Major:
                     </span>
-                    Computer Science
+                    Algorithms
                   </p>
                   <p className="mt-1 leading-normal text-md text-gray-800"></p>
                   <p className="leading-normal text-gray-700 text-md">
@@ -230,6 +190,44 @@ export default function ResumeFlow() {
                     4.0
                   </p>
                 </section>
+                {/*school 2------------------------------------------------------------------------------------------*/}
+                
+                <section className="mt-2  border-b-2 break-inside-avoid">
+                  <header>
+                    <h3
+                      className=" text-lg font-semibold text-gray-700 leading-snugish"
+                    >
+                      Indian Institure of technology, Kanpur
+                    </h3>
+                    <p className="leading-normal text-md text-gray-500">
+                      Master of Engineering
+                    </p>
+                  </header>
+                  <p className="mt-1 leading-normal text-md text-gray-800">
+                    <span
+                      className="font-semibold text-gray-700 text-md leading-snugish"
+                    >
+                      Major:
+                    </span>
+                    Mechanical Engineering
+                  </p>
+                  <p className="mt-1 leading-normal text-md text-gray-800">
+                    <span
+                      className="font-semibold text-gray-700 text-md leading-snugish"
+                    >
+                      Minor:
+                    </span>
+                    Computers
+                  </p>
+                  <p className="leading-normal text-gray-700 text-md">
+                    <span
+                      className="font-semibold text-gray-700 text-md leading-snugish"
+                    >
+                      GPA:
+                    </span>
+                    9.6
+                  </p>
+                </section>
   
                 {/*school 3 ------------------------------------------------------------------------------*/}
                 <section className="pb-4 mt-4 mb-4 break-inside-avoid">
@@ -237,10 +235,10 @@ export default function ResumeFlow() {
                     <h3
                       className="flex-grow text-lg font-semibold text-gray-700 leading-snugish"
                     >
-                      Codify Academy
+                      Osmania University
                     </h3>
                     <p className="leading-normal text-md text-gray-500">
-                      2018 | Certificate
+                       Bachelors of Engineering
                     </p>
                   </header>
                   <p className="mt-1 leading-normal text-md text-gray-800">
@@ -249,7 +247,7 @@ export default function ResumeFlow() {
                     >
                       Subject:
                     </span>
-                    Front End Development
+                    Mechanical Engineering
                   </p>
                 </section>
               </section>
@@ -272,107 +270,33 @@ export default function ResumeFlow() {
                       <li
                         className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
                       >
-                        HTML5
+                        React/Angular/Javascript/Typescript/Micro Frontends/React Native/asp.net core/asp.net
                       </li>
                       <li
                         className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
                       >
-                        CSS3
+                        C#/.net core/.net/Micro Services/Multi threaded programming/Design patterns/C++
                       </li>
                       <li
                         className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
                       >
-                        SCSS
+                        Azure Devops/CI/CD/Containerization
                       </li>
                       <li
                       className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
                     >
-                      Prompt Engineering 
-                    </li>
-                    <li
-                    className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                  >
-                    Containerization
-                  </li>
-                    
-                    <li
-                      className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                    >
-                      CI/CD
-                    </li>
-                    <li
-                    className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                  >
-                    System Administration
-                  </li>
-                  <li
-                  className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                >
-              </li>
-                
-                    
-                    <li
-                      className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                    >
-                      AWS
+                      SQL server / Oracle / TSQL / Elastic Search / Mongo / Firebase
                     </li>
                     <li
                       className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
                     >
-                      Linux
-                    </li>
-                      <li
-                        className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                      >
-                        Javascript
-                      </li>
-  
-                      <li
-                        className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                      >
-                        Typescript
-                      </li>
-                      <li
-                        className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                      >
-                        Node.js
-                      </li>
-                      <li
-                        className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                      >
-                        React.js
-                      </li>
-                      <li
-                      className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                    >
-                      Python
-                    </li>
-                      <li
-                        className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                      >
-                        NoSQL
-                      </li>
-                      <li
-                      className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                    >
-                      Postgresql
-                    </li>
-                      <li
-                        className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                      >
-                        MongoDB
-                      </li>
-                      <li
-                      className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                    >
-                      Lua
+                      Decent knowlege of Azure/AWS/Google cloud/Java
                     </li>
                     <li
-                    className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-                  >
-                    Functional Programming 
-                  </li>
-  
+                      className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
+                    >
+                      Agile/Xp/Scrum/JIRA/Project Management
+                    </li>
                       </ul>
                   </section>
                 </section>
@@ -393,10 +317,10 @@ export default function ResumeFlow() {
                   <h3
                     className="text-md font-semibold text-gray-800 leading-snugish "
                   >
-                    Full Stack Web Developer
+                    Hands of full stack tech lead
                   </h3>
                   <p className="leading-normal text-sm text-gray-500">
-                    Jun 2018 &ndash; Present | Freelance
+                    Feb 2014 &ndash; Present
                   </p>
                 </header>
                 <ul className="mt-2 font-normal text-md  text-gray-700 leading-snugish pl-3">
@@ -433,10 +357,10 @@ export default function ResumeFlow() {
                   <h3
                     className="text-md font-semibold text-gray-800 leading-snugish"
                   >
-                    Computer Repair Technician 
+                    Senior software engineer
                   </h3>
                   <p className="leading-snugish text-sm text-gray-500">
-                    Mar 2018 &ndash; Present | Freelance
+                  May 2004 &ndash; Jan 2014
                   </p>
                 </header>
                 <ul className="mt-2 font-normal text-md  text-gray-700 leading-snugish pl-3">
@@ -474,10 +398,10 @@ export default function ResumeFlow() {
                 <h3
                   className="text-md font-semibold text-gray-800 leading-snugish"
                 >
-                  Assistant Manager
+                  Part time projects
                 </h3>
                 <p className="leading-snugish text-sm text-gray-500">
-                  May 2012 &ndash; Apr 2018 | Pet Food Express
+                  Feb 2010 to present
                 </p>
               </header>
               <ul className="mt-2 font-normal text-md  text-gray-700 leading-snugish pl-3">
@@ -508,47 +432,7 @@ export default function ResumeFlow() {
                 </li>
               </ul>
             </section>
-          {/* job 4 */}
-          <section className="mb-2 break-inside-avoid border-b-0 border-gray-300">
-            <header>
-              <h3
-                className="text-md font-semibold text-gray-800 leading-snugish"
-              >
-                Executive Assistant 
-              </h3>
-              <p className="leading-snugish text-sm text-gray-500">
-                Jun 2009 &ndash; Dec 2011 | 360 Custom Closets and Cabinets 
-              </p>
-            </header>
-            <ul className="mt-2 font-normal text-md  text-gray-700 leading-snugish pl-3">
-              <li>
-                <span
-                  className="transform -translate-y-px select-none text-gray-500"
-                >
-                  &rsaquo;
-                </span>
-                Provided high-level administrative support to the small business executive, including managing schedules, booking travel arrangements, and coordinating meetings and events.
-              </li>
-       
-              <li>
-                <span
-                  className="transform -translate-y-px select-none text-gray-500"
-                >
-                  &rsaquo;
-                </span>
-                Managed communication on behalf of the executive, including answering phone calls and emails, and responding to inquiries and requests in a timely and professional manner.
-              </li>
-              <li>
-                <span
-                  className="transform -translate-y-px select-none text-gray-500"
-                >
-                  &rsaquo;
-                </span>
-                Coordinated and maintained relationships with vendors, clients, and other external stakeholders, ensuring that all interactions were professional and aligned with the business's values.
-              </li>
-            </ul>
-          </section>
-        
+         
               {/*                Additional Jobs Would Go Here*/}
             </section>
           </section>
