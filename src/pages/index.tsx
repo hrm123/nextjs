@@ -317,7 +317,7 @@ export default function ResumeFlow() {
                   <h3
                     className="text-md font-semibold text-gray-800 leading-snugish "
                   >
-                    Hands of full stack tech lead
+                    Hands on full stack tech lead / Senior Consultant
                   </h3>
                   <p className="leading-normal text-sm text-gray-500">
                     Feb 2014 &ndash; Present
@@ -330,7 +330,7 @@ export default function ResumeFlow() {
                     >
                       &rsaquo;
                     </span>
-                    Developed high-quality web applications from scratch, using a range of programming languages, including HTML, CSS, JavaScript, PHP, and Python, to meet clients' specific needs
+                    Developed high-quality  applications full software development life cycle for clients - PwC, Trade Station, Bank of America, Aetha, NB Ventures,Invonto, Verisk,Moodys
                   </li>
                   <li>
                     <span
@@ -338,7 +338,7 @@ export default function ResumeFlow() {
                     >
                       &rsaquo;
                     </span>
-                    Utilized various front-end frameworks, such as React, Angular, and Vue.js, and back-end frameworks, such as Node.js, Express, and Laravel, to deliver robust and scalable web solutions. 
+                    Utilized various front-end frameworks, such as React, Angular, asp.net, Micro frontends, & back-end frameworks, such as Cloud technologies, Micro services,  C#, Design patterns, Devops, to deliver robust and scalable web solutions. 
                   </li>
                   <li>
                     <span
@@ -346,7 +346,7 @@ export default function ResumeFlow() {
                     >
                       &rsaquo;
                     </span>
-                    Designed and implemented databases using SQL and NoSQL technologies, such as MySQL, PostgreSQL, MongoDB, and Firebase, to store and manage data effectively
+                    Designed and implemented databases using SQL and NoSQL technologies, such as SQL server, Elastic Search, MongoDB, and Firebase, to store and manage data effectively
                   </li>
            
                 </ul>
@@ -370,7 +370,7 @@ export default function ResumeFlow() {
                     >
                       &rsaquo;
                     </span>
-                    Provided freelance computer repair services to individual and business clients, including troubleshooting, diagnosis, and repair of hardware and software issues.
+                    Developed high-quality  applications full software development life cycle for clients - City of NewYork, KPMG, Northpoint Solutions, Prudential, Citi Group, AIG, Credit Suisse, Ipreo, Redcats, Verizon
                   </li>
                   <li>
                     <span
@@ -378,7 +378,7 @@ export default function ResumeFlow() {
                     >
                       &rsaquo;
                     </span>
-                    Demonstrated expertise in a range of operating systems, including Windows, macOS, and Linux, and a variety of hardware components, including CPUs, RAM, hard drives, and graphics cards.
+                    Utilized various front-end frameworks, such as Angular, asp.net, winforms, asp,  & back-end frameworks, such as Web services,  C#, Design patterns, c++, COM,  to deliver robust and scalable web solutions. 
                   </li>
                   <li>
                     <span
@@ -386,7 +386,7 @@ export default function ResumeFlow() {
                     >
                       &rsaquo;
                     </span>
-                    Offered customized solutions to clients, including hardware upgrades, software installations, and virus/malware removal, to meet their specific needs.
+                    Designed and implemented databases using SQL server and Orcale, to store and manage data effectively
                   </li>
               
          
@@ -411,7 +411,7 @@ export default function ResumeFlow() {
                   >
                     &rsaquo;
                   </span>
-                  Trained and supervised staff on product knowledge, customer engagement, and sales techniques.
+                  Developed few react native apps for android/ios - financial, productivity, Augmented Reality
                 </li>
                 <li>
                   <span
@@ -419,17 +419,10 @@ export default function ResumeFlow() {
                   >
                     &rsaquo;
                   </span>
-                  Maintained a clean and organized store environment, ensuring the highest level of customer satisfaction.
+                  Several part time projects or courses/specializations - Algorithms with Stanford University,  C++ algorithms from UIUC, TDD/BDD, Nextjs, Ruby on Rails, etc 
                 </li>
     
-                <li>
-                  <span
-                    className="transform -translate-y-px select-none text-gray-500"
-                  >
-                    &rsaquo;
-                  </span>
-                  Demonstrated a deep understanding of the pet food industry, including trends, products, and competitors, to provide customers with informed recommendations and advice.
-                </li>
+                
               </ul>
             </section>
          
