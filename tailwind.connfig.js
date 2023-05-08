@@ -1,12 +1,7 @@
-/** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme");
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
-  content: [
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
-
-  ],
   theme: {
     /* For Letter size */
     screens: {
@@ -240,5 +235,4 @@ module.exports = {
       });
     }),
   ],
-}
-
+};
