@@ -14,6 +14,7 @@ const inter = Inter({ subsets: ['latin'] })
 const clientMap: { [id: string]: any} = {}
 clientMap['1'] = {
   title: 'Bank of America',
+  id: 1,
   projects : [
     {
       name: 'Senior Consultant - Skillstorm, NJ/remote ',
@@ -40,6 +41,7 @@ clientMap['1'] = {
 
 clientMap['2'] = {
   title: 'Angular Projects',
+  id:2,
   clients : [
     {
       name: 'Senior Consultant - Bank of America/SkillStorm, Remote',
@@ -66,6 +68,7 @@ clientMap['2'] = {
  
   clientMap['3'] = {
     title: 'React Native Projects',
+    id:3,
     clients : [
       {
         name: 'SafeFinance - https://play.google.com/store/apps/details?id=com.portfoliodroid247.pitechworks.safefinance ',
@@ -88,7 +91,7 @@ export default function ClientPage() {
         <Link href="/" className="float-right"><HomeIcon className="h-4 w-4 mx-2"/></Link>
         <h1 className="mb-0 text-5xl font-bold text-gray-700">{`${clientMap[selectedClient].title}`}</h1>
         {clientMap[selectedClient].projects.map((client:any) => (
-          <section className="mb-2 break-inside-avoid border-t-2 border-gray-300">
+          <section key={client.id} className="mb-2 break-inside-avoid border-t-2 border-gray-300">
             <header>
               <h3
                 className="text-md font-semibold text-gray-800 leading-snugish "
