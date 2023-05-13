@@ -23,17 +23,10 @@ return (
                       Stanford University
                     </h3>
                     <p className="leading-normal text-md text-gray-500">
-                      2022  | Algorithms Specialization
+                      Algorithms Specialization
                     </p>
                   </header>
-                  <p className="mt-1 leading-normal text-md text-gray-800">
-                    <span
-                      className="font-semibold text-gray-700 text-md leading-snugish"
-                    >
-                      Major:
-                    </span>
-                    Algorithms
-                  </p>
+                  
                   <p className="mt-1 leading-normal text-md text-gray-800"></p>
                   <p className="leading-normal text-gray-700 text-md">
                     <span
@@ -65,14 +58,7 @@ return (
                     </span>
                     Mechanical Engineering
                   </p>
-                  <p className="mt-1 leading-normal text-md text-gray-800">
-                    <span
-                      className="font-semibold text-gray-700 text-md leading-snugish"
-                    >
-                      Minor:
-                    </span>
-                    Computers
-                  </p>
+                  
                   <p className="leading-normal text-gray-700 text-md">
                     <span
                       className="font-semibold text-gray-700 text-md leading-snugish"
@@ -84,7 +70,7 @@ return (
                 </section>
   
                 {/*school 3 ------------------------------------------------------------------------------*/}
-                <section className="pb-4 mt-4 mb-4 break-inside-avoid">
+                <section className="mt-4 break-inside-avoid">
                   <header>
                     <h3
                       className="flex-grow text-lg font-semibold text-gray-700 leading-snugish"
@@ -102,6 +88,14 @@ return (
                       Subject:
                     </span>
                     Mechanical Engineering
+                  </p>
+                  <p className="leading-normal text-gray-700 text-md">
+                    <span
+                      className="font-semibold text-gray-700 text-md leading-snugish"
+                    >
+                      GPA:
+                    </span>
+                    8.4
                   </p>
                 </section>
               </section>

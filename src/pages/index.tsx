@@ -41,8 +41,8 @@ export default function ResumeFlow() {
           <section className="flex-col">
             <Contact />
             <Summary />
-            <Education />
             <Skills />
+            <Education />
             <Experience />
           </section>
         </section>

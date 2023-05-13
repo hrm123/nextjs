@@ -22,7 +22,7 @@ return (
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
           >
-            <a href="/tech/1">React</a>/<a href="/tech/2">Angular</a>/Javascript/Typescript/Micro Frontends/React Native/asp.net core/asp.net
+            <a href="/tech/1" className='underline'>React</a>/<a href="/tech/2" className='underline'>Angular</a>/Javascript/Typescript/Micro Frontends/React Native/asp.net core/asp.net
           </li>
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
@@ -32,18 +32,14 @@ return (
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
           >
-            Azure Devops/CI/CD/Containerization
+            Decent knowlege of Azure Devops/CI/CD/Containerization/Azure/AWS/Google cloud
           </li>
           <li
           className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
         >
           SQL server / Oracle / TSQL / Elastic Search / Mongo / Firebase
         </li>
-        <li
-          className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
-        >
-          Decent knowlege of Azure/AWS/Google cloud/Java
-        </li>
+        
         <li
           className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
         >

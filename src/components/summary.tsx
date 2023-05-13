@@ -14,7 +14,7 @@ const Summary = () => {
 
                 <section className="mb-2 break-inside-avoid">
                     <p className="mt-2 leading-normal text-gray-700 text-md">
-                    Over 20+ years of full stack work experience (.NET / Javascript stack, SQL, NoSql etc) in developing/ architecting/ maintaining/ supporting including web, mobile, web services, distributed, multi-threaded, high performance/throughput applications.
+                    Over 20+ years of full stack work experience (.NET / Javascript stack, SQL, NoSql etc) in developing/ architecting/ maintaining/ supporting - web, web services, mobile, distributed, multi-threaded, high performance/throughput applications.
                     </p>
                 </section>
                 </section>
