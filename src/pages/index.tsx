@@ -22,13 +22,10 @@ const edgeTypes: EdgeTypes = {
 
 const range = (start: number, stop: number, step: number) =>
   Array.from({ length: (stop - start) / step + 1 }, (_, i) => start + i * step);
-console.log({range: range(2004,2023,1)})
 const initialNodes = range(2004,2023,1).map((year,iter) => ({id: `${iter}`, position: {x: iter*60, y: iter*60}, data: {label: `${year}`}}));
 
-console.log(initialNodes);
 const initialEdges : Edge[] =  range(2004,2023,1).map((year,iter) => ({id:`e${iter}-${iter+1}`, source: `${iter}`, target:`${iter+1}`, type: 'custom', data: {year}}))
 //[{ id: 'e1-2', source: '1', target: '2' }];
-console.log({initialEdges})
 export default function ResumeFlow() {
   return ( <>
   {/* page */}
