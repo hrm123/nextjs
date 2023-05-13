@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 
@@ -30,7 +31,7 @@ const Experience = () => {
               >
                 &rsaquo;
               </span>
-              Developed high-quality  applications full software development life cycle for clients - PwC, Trade Station, <a href="/client/1" className='underline'>Bank of America</a>, Aetna, NB Ventures,Invonto, Verisk,Moodys
+              Developed high-quality  applications full software development life cycle for clients - PwC, Trade Station, <Link href="/client/1" className='underline'>Bank of America</Link>, Aetna, NB Ventures,Invonto, Verisk,Moodys
             </li>
             <li>
               <span

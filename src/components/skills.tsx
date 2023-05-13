@@ -1,5 +1,6 @@
 
 
+import Link from 'next/link';
 import React from 'react';
 
 
@@ -22,7 +23,7 @@ return (
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
           >
-            <a href="/tech/1" className='underline'>React</a>/<a href="/tech/2" className='underline'>Angular</a>/Javascript/Typescript/Micro Frontends/<a href="/tech/3" className='underline'>React Native</a>/asp.net core/asp.net
+            <Link href="/tech/1" className='underline'>React</Link>/<Link href="/tech/2" className='underline'>Angular</Link>/Javascript/Typescript/Micro Frontends/<Link href="/tech/3" className='underline'>React Native</Link>/asp.net core/asp.net
           </li>
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
