@@ -69,7 +69,23 @@ techMap['2'] = {
     },
   ]
   };
-  
+ 
+  techMap['3'] = {
+    title: 'React Native Projects',
+    clients : [
+      {
+        name: 'SafeFinance - https://play.google.com/store/apps/details?id=com.portfoliodroid247.pitechworks.safefinance ',
+        dates: 'Sep 2018 - Sep 2020',
+        details: 'App that lets user to set time or price-based alerts for market tickers so that they can be alerted, and they can buy/sell the positions. Technologies : react native, redux, saga, axios, firebase, google functions, sqlite, Java/JUnit, React-testing-library, Mocha, Chai, firebase, google functions, omniscient etc '
+      },
+      {
+        name: 'Developer Level IV - NB Ventures - Field Service',
+        dates: 'Jan 2020 - Mar 2020',
+         details: 'Developed a react native multi-tenant iOS app framework for NB Ventures for Field Service / Supplychain Management project. Developed the app using the concept of micro frontend / multi tenant architecture.'
+      },
+    ]
+  };
+
 export default function TechnologyPage() {
   const router = useRouter();
   const selctedTech = router.query.id ? router.query.id[0] : '1';
