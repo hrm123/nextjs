@@ -1,6 +1,4 @@
 import React from 'react';
-//@ts-ignore
-import { ChatIcon, HomeIcon, PhoneIcon } from "@heroicons/react/20/solid";
 
 const Header = () => {
     return (
@@ -10,7 +8,7 @@ const Header = () => {
             <section className="block">
             
               <h1 className="mb-0 text-5xl font-bold text-gray-700">
-                Rammohan Holagundi <a href="/" className="float-right"><HomeIcon className="h-4 w-4 mx-2"/></a>
+                Rammohan Holagundi 
               </h1>
               <h2
                 className="m-0 ml-2 text-2xl font-semibold text-gray-700 leading-snugish"
