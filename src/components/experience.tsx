@@ -31,7 +31,7 @@ const Experience = () => {
               >
                 &rsaquo;
               </span>
-              Developed high-quality  applications full software development life cycle for clients - <Link href="/client/3" className='underline'>PwC</Link>, <Link href="/client/4" className='underline'>Trade Station</Link>, <Link href="/client/1" className='underline'>Bank of America</Link>, Aetna, NB Ventures,Invonto, Verisk,Moodys
+              Developed high-quality  applications full software development life cycle for clients - <Link href="/client/3" className='underline'>PwC</Link>, <Link href="/client/4" className='underline'>Trade Station</Link>, <Link href="/client/1" className='underline'>Bank of America</Link>, Aetna, <Link href="/client/2" className='underline'>NB Ventures</Link>,Invonto, Verisk,Moodys
             </li>
             <li>
               <span

@@ -39,6 +39,18 @@ clientMap['1'] = {
   ]
 };
 
+clientMap['2'] = {
+  title: 'GEP/NB Ventures',
+  id:2,
+  projects : [
+    {
+      name: 'Principal Software Engineer',
+      dates: 'Jan 2020 - Mar 2020',
+      details: 'Worked on developing/design/architecture for  supply chain planning product using .net core, angular, react native, C#, .net core web api (REST, Azure cloud, Entity Framework, Design patterns), sql server (Azure) and other technologies to develop a instant messaging system (angular, firebase, google cloud, nodejs) and design/framework/prototype for multi tenant mobile application (react native, redux, saga etc) using the concept of MicroFrontends and MicroServices'
+    }
+  ]
+  };
+
 clientMap['3'] = {
   title: 'PwC',
   id:2,
@@ -49,7 +61,7 @@ clientMap['3'] = {
       details: 'Hands on tech lead creating Next Generation Audit website (Center of Excellence) is creating enterprise websites with latest architecture - React/Redux/C#/Azure/Micro Services/ gRPC,, web apis, sql server'
     },
     {
-      name: 'Teach Lead - PwC/Infosys',
+      name: 'Tech Lead - PwC/Infosys',
       dates: 'Sep 2022 - May 2023',
       details: 'Hands on tech lead working on design, architect, coding, dev-ops for next generation audit (Acceleration cecnter) website using technologies -  React, Redux Toolkit, Flux,  Typescript, Fluent UI (React),  webpack, SCSS, react bootstrap, C#, .NET core, Azure, Micro Frontends, CI/CD with azure devops, authentication & authorization, Microservices using gRPC/REST, C#, sql server, mongo'
     }
