@@ -39,47 +39,32 @@ clientMap['1'] = {
   ]
 };
 
-clientMap['2'] = {
-  title: 'Angular Projects',
+clientMap['3'] = {
+  title: 'PwC',
   id:2,
-  clients : [
+  projects : [
     {
-      name: 'Senior Consultant - Bank of America/SkillStorm, Remote',
-      dates: 'Sep 2020 - Sep 2021',
-      details: 'Working on full SDLC of enterprise website (claims validations project)  using technologies like react, asp.net, c#, web apis, sql server'
+      name: 'Tech Lead - PwC/Infosys',
+      dates: 'Dec 2021 - Sep 2022',
+      details: 'Hands on tech lead creating Next Generation Audit website (Center of Excellence) is creating enterprise websites with latest architecture - React/Redux/C#/Azure/Micro Services/ gRPC,, web apis, sql server'
     },
     {
-      name: 'Principal Software Engineer - NB Ventures/GEP',
-      dates: 'Jan 2020 - Mar 2020',
-      details: 'Worked on developing/design/architecture for  supply chain planning product using .net core, angular, react native, C#, .net core web api (REST, Azure cloud, Entity Framework, Design patterns), sql server (Azure) and other technologies to develop a instant messaging system (angular, firebase, google cloud, nodejs) and design/framework/prototype for multi tenant mobile application (react native, redux, saga etc) using the concept of MicroFrontends and MicroServices'
-    },
-    {
-      name: 'Senior Consultant - SealedAir/Invonto',
-      dates: 'Feb 2018 - May 2018',
-       details: ' Used technologies including angular 5/2/1, bootstrap 3, less, asp.net mvc 5, c#, git, Amazon web services, Hangfire, responsive site technologies, teamwork, springloops, sql server, visual studio 2015/2017 to migrating from angular 2.0 to 5.0, Combining angular 5 site with asp.net mvc website, performance of angular 1.4 and angular 2+ sites, angular material, login/session timeout management from SPA website, localization, performance improvements of asp.net mvc website and c# multithreading to speed up pdf exports and other middle tier processes'
-    },
-    {
-      name: 'Developer Level IV - Bank of America/TEK Systems',
-      dates: 'Feb 2017 - Jan 2018',
-       details: ' Design and  implementation of several views using Angular JS/asp.net mvc/kendo angular based UI for RAILS intranet website. Used concepts like angular views, routes, ngroute, uirouter, controllers, services, directives (for reusable business components) etc and asp.net views, controllers, partial views, bundling, and kendo angular widgets like grid, dropdown etc. Assigning work and coordinating offshore resource(s) for few tasks, production support and troubleshooting, communicating with BA team on daily basis to gather and clarify requirements and helping the team on testing setup'
-    },
+      name: 'Teach Lead - PwC/Infosys',
+      dates: 'Sep 2022 - May 2023',
+      details: 'Hands on tech lead working on design, architect, coding, dev-ops for next generation audit (Acceleration cecnter) website using technologies -  React, Redux Toolkit, Flux,  Typescript, Fluent UI (React),  webpack, SCSS, react bootstrap, C#, .NET core, Azure, Micro Frontends, CI/CD with azure devops, authentication & authorization, Microservices using gRPC/REST, C#, sql server, mongo'
+    }
   ]
   };
  
-  clientMap['3'] = {
-    title: 'React Native Projects',
+  clientMap['4'] = {
+    title: 'Software Engineer II - Trade Station',
     id:3,
-    clients : [
+    projects : [
       {
         name: 'SafeFinance - https://play.google.com/store/apps/details?id=com.portfoliodroid247.pitechworks.safefinance ',
-        dates: 'Sep 2018 - Sep 2020',
-        details: 'App that lets user to set time or price-based alerts for market tickers so that they can be alerted, and they can buy/sell the positions. Technologies : react native, redux, saga, axios, firebase, google functions, sqlite, Java/JUnit, React-testing-library, Mocha, Chai, firebase, google functions, omniscient etc '
-      },
-      {
-        name: 'Developer Level IV - NB Ventures - Field Service',
-        dates: 'Jan 2020 - Mar 2020',
-         details: 'Developed a react native multi-tenant iOS app framework for NB Ventures for Field Service / Supplychain Management project. Developed the app using the concept of micro frontend / multi tenant architecture.'
-      },
+        dates: 'Sep 2021 - Dec  2021',
+        details: 'Worked on developing/enhancing react screens, auth0 logon process for web site tradestation.com. Technologies – React, AWS, Gitlab, Auth0'
+      }
     ]
   };
 
