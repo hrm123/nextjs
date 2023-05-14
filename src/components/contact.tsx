@@ -10,13 +10,13 @@ const Contact = () => {
                   <li
                     className="mt-1 leading-normal text-black transition duration-100 ease-in text-gray-500 text-md hover:text-gray-700 print:"
                   >
-                    <a href="https://rammohanholagundi.com" className="group">
+                    <a href="https://rammohanholagundi.net" className="group">
                       <span
                         className="mr-2 text-lg font-semibold text-gray-700 leading-snugish"
                       >
                         Portfolio:
                       </span>
-                      rammohanholagundi.com
+                      rammohanholagundi.net
                       <span
                         className="inline-block font-normal text-black transition duration-100 ease-in text-gray-500 print:text-black group-hover:text-gray-700 print:"
                       >
