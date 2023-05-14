@@ -73,7 +73,7 @@ clientMap['3'] = {
     id:3,
     projects : [
       {
-        name: 'SafeFinance - https://play.google.com/store/apps/details?id=com.portfoliodroid247.pitechworks.safefinance ',
+        name: 'Tradestation.com ',
         dates: 'Sep 2021 - Dec  2021',
         details: 'Worked on developing/enhancing react screens, auth0 logon process for web site tradestation.com. Technologies – React, AWS, Gitlab, Auth0'
       }
@@ -85,7 +85,7 @@ export default function ClientPage() {
   const selectedClient = router.query.id ? router.query.id[0] : '1';
   return (
     <section className="max-w-3xl p-3 mx-auto my-auto bg-gray-100 border-4 border-gray-700 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white">
-        <Link href="/" className="float-right"><HomeIcon className="h-4 w-4 mx-2"/></Link>
+        <Link href="/" className="float-right"><HomeIcon className="h-10 w-10 mx-2"/></Link>
         <h1 className="mb-0 text-5xl font-bold text-gray-700">{`${clientMap[selectedClient].title}`}</h1>
         {clientMap[selectedClient].projects.map((client:any) => (
           <section key={client.id} className="mb-2 break-inside-avoid border-t-2 border-gray-300">
