@@ -53,7 +53,7 @@ clientMap['2'] = {
 
 clientMap['3'] = {
   title: 'PwC',
-  id:2,
+  id:3,
   projects : [
     {
       name: 'Tech Lead - PwC/Infosys',
@@ -70,7 +70,7 @@ clientMap['3'] = {
  
   clientMap['4'] = {
     title: 'Software Engineer II - Trade Station',
-    id:3,
+    id:4,
     projects : [
       {
         name: 'Tradestation.com ',
@@ -80,9 +80,36 @@ clientMap['3'] = {
     ]
   };
 
+  clientMap['6'] = {
+    title: 'Senior Consultant - Moodys Analytics /  Sail Technologies',
+    id:6,
+    projects : [
+      {
+        name: 'Moodys website ',
+        dates: 'Sep 2021 - Dec  2021',
+        details: 'Worked on Moodys analytics website rewrite using technologies like ReactJS, Redux, Javascript/ES2015,  Babel, linting, Node.JS,  C#, HTML5, CSS3, LESS, asp.net mvc, web api, rally, agile, TDD (mocha, chai etc), Hapi server, SOA, Micro services. ' +
+        ' •	Developed React/Redux components to be used in various parts of the responsive screening and reporting web site. ' +
+        ' •	Talking to onsite BAs, offshore QA team, and scrum standups with team and project management being part of other daily tasks. ' 
+      }
+    ]
+  };
+
+  clientMap['8'] = {
+    title: 'Lead Consultant - Aetna',
+    id:8,
+    projects : [
+      {
+        name: 'Claims Validation website ',
+        dates: 'May 2020 - Sep  2020',
+        details: 'Working on full SDLC of enterprise website (claims validations project)  using technologies like react, asp.net, c#, web apis, sql server' 
+      }
+    ]
+  };
+
 export default function ClientPage() {
   const router = useRouter();
   const selectedClient = router.query.id ? router.query.id[0] : '1';
+  console.log({selectedClient})
   return (
     <section className="max-w-3xl p-3 mx-auto my-auto bg-gray-100 border-4 border-gray-700 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white">
         <Link href="/" className="float-right"><HomeIcon className="h-10 w-10 mx-2"/></Link>

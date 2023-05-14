@@ -23,7 +23,7 @@ return (
                       Stanford University
                     </h3>
                     <p className="leading-normal text-md text-gray-500">
-                      Algorithms Specialization
+                      <a href='https://www.coursera.org/account/accomplishments/specialization/certificate/5RZXGG8ZS4FC'>Algorithms Specialization</a>
                     </p>
                   </header>
                   
