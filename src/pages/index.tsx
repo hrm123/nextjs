@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
@@ -14,7 +14,7 @@ import Education from '@/components/education'
 import Skills from '@/components/skills'
 import Experience from '@/components/experience'
 import ThemeSwitch from '@/components/themeSwitch';
-import { useTheme } from 'next-themes';
+// import { useTheme } from 'next-themes';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,18 +24,6 @@ const edgeTypes: EdgeTypes = {
 
 
 function ResumeFlow() {
-  const { systemTheme, theme, setTheme } = useTheme();
-  useEffect(()=>{
-    if(theme==='dark') {
-      document.body.classList.add('bg-black');
-      document.body.classList.remove('bg-white');
-    } else{
-      document.body.classList.add('bg-white');
-      document.body.classList.remove('bg-black');
-    }
-  })
-
-
   return ( <>
   {/* page */}
     <section className="min-w-full p-3 mx-auto my-auto
