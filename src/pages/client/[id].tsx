@@ -1,3 +1,4 @@
+import React from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
@@ -7,6 +8,7 @@ import Header from '@/components/header'
 //@ts-ignore
 import { ChatIcon, HomeIcon, PhoneIcon } from "@heroicons/react/20/solid";
 import Link from 'next/link'
+import ThemeSwitch from '@/components/themeSwitch';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -106,13 +108,13 @@ clientMap['3'] = {
     ]
   };
 
-export default function ClientPage() {
+function ClientPage() {
   const router = useRouter();
   const selectedClient = router.query.id ? router.query.id[0] : '1';
   console.log({selectedClient})
   return (
     <section className="max-w-3xl p-3 mx-auto my-auto bg-gray-100 border-4 border-gray-700 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white">
-        <Link href="/" className="float-right"><HomeIcon className="h-10 w-10 mx-2"/></Link>
+        <Link href="/" className="float-right"><HomeIcon className="h-10 w-10 mx-2"/></Link><ThemeSwitch />
         <h1 className="mb-0 text-5xl font-bold text-gray-700">{`${clientMap[selectedClient].title}`}</h1>
         {clientMap[selectedClient].projects.map((client:any) => (
           <section key={client.id} className="mb-2 break-inside-avoid border-t-2 border-gray-300">
@@ -135,3 +137,7 @@ export default function ClientPage() {
     </section>
   )
 }
+
+
+
+export default React.memo(ClientPage)
