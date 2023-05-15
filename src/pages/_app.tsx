@@ -9,6 +9,6 @@ export default function App({ Component, pageProps }: AppProps) {
     document.body.classList.add('bg-hero-zig-zag')
     document.getElementById('__next')?.classList.add('nextElementStyle')
   })
-  return <ThemeProvider><Component {...pageProps} /></ThemeProvider>
+  return <ThemeProvider forcedTheme='light'><Component {...pageProps} /></ThemeProvider>
   // return <Component {...pageProps} />;
 }
