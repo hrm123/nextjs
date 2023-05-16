@@ -113,18 +113,18 @@ function ClientPage() {
   const selectedClient = router.query.id ? router.query.id[0] : '1';
   console.log({selectedClient})
   return (
-    <section className="min-w-full p-3 mx-auto my-auto bg-gray-100 border-4 border-gray-700 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white">
-        <Link href="/" className="float-right"><HomeIcon className="h-10 w-10 mx-2"/></Link>{/* <ThemeSwitch /> */}
-        <h1 className="mb-0 text-5xl font-bold text-gray-700">{`${clientMap[selectedClient].title}`}</h1>
+    <section className="min-w-full p-3 mx-auto my-auto  dark:bg-black dark:text-white  border-4 border-gray-700 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white">
+        <Link href="/" className="float-right"><HomeIcon className="h-10 w-10 mx-2"/></Link><div className="float-right"><ThemeSwitch /></div>
+        <h1 className="mb-0 text-5xl font-bold ">{`${clientMap[selectedClient].title}`}</h1>
         {clientMap[selectedClient].projects.map((client:any) => (
           <section key={client.id} className="mb-2 break-inside-avoid border-t-2 border-gray-300">
             <header>
               <h3
-                className="text-md font-semibold text-gray-800 leading-snugish "
+                className="text-md font-semibold  leading-snugish "
               >
                 {client.name}
               </h3>
-              <p className="leading-normal text-sm text-gray-500">
+              <p className="leading-normal text-sm ">
                 {client.dates}
               </p>
             </header>

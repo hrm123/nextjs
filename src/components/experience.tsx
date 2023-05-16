@@ -4,11 +4,11 @@ import React from 'react';
 
 const Experience = () => {
     return (
-      <section className="pb-2 pb-4 mt-4 border-b-4 border-gray-300 first:mt-0">
+      <section className="pb-2 mt-4 border-b-4 border-gray-300 first:mt-0">
       {/* To keep in the same column ----------------------------------------------------------------------*/}
       <section className="break-inside-avoid">
         <h2
-          className="mb-2 text-xl font-bold tracking-widest text-gray-800 print:font-normal"
+          className="mb-2 text-xl font-bold tracking-widest  print:font-normal"
         >
           EXPERIENCE
         </h2>
@@ -16,18 +16,18 @@ const Experience = () => {
         <section className="mb-2 break-inside-avoid border-b-2 border-gray-300">
           <header>
             <h3
-              className="text-md font-semibold text-gray-800 leading-snugish "
+              className="text-md font-semibold  leading-snugish "
             >
               Hands on full stack tech lead / Senior Consultant
             </h3>
-            <p className="leading-normal text-sm text-gray-500">
+            <p className="leading-normal text-sm ">
               Feb 2014 &ndash; Present
             </p>
           </header>
-          <ul className="mt-2 font-normal text-md  text-gray-700 leading-snugish pl-3">
+          <ul className="mt-2 font-normal text-md   leading-snugish pl-3">
           <li>
               <span
-                className="transform -translate-y-px select-none text-gray-500"
+                className="transform -translate-y-px select-none "
               >
                 &rsaquo;
               </span>
@@ -35,7 +35,7 @@ const Experience = () => {
             </li>
             <li>
               <span
-                className="transform -translate-y-px select-none text-gray-500"
+                className="transform -translate-y-px select-none "
               >
                 &rsaquo;
               </span>
@@ -43,7 +43,7 @@ const Experience = () => {
             </li>
             <li>
               <span
-                className="transform -translate-y-px select-none text-gray-500"
+                className="transform -translate-y-px select-none "
               >
                 &rsaquo;
               </span>
@@ -56,18 +56,18 @@ const Experience = () => {
         <section className="mb-2 break-inside-avoid border-b-2 border-gray-300">
           <header>
             <h3
-              className="text-md font-semibold text-gray-800 leading-snugish"
+              className="text-md font-semibold  leading-snugish"
             >
               Senior software engineer
             </h3>
-            <p className="leading-snugish text-sm text-gray-500">
+            <p className="leading-snugish text-sm ">
             May 2004 &ndash; Jan 2014
             </p>
           </header>
-          <ul className="mt-2 font-normal text-md  text-gray-700 leading-snugish pl-3">
+          <ul className="mt-2 font-normal text-md   leading-snugish pl-3">
             <li>
               <span
-                className="transform -translate-y-px select-none text-gray-500"
+                className="transform -translate-y-px select-none "
               >
                 &rsaquo;
               </span>
@@ -75,7 +75,7 @@ const Experience = () => {
             </li>
             <li>
               <span
-                className="transform -translate-y-px select-none text-gray-500"
+                className="transform -translate-y-px select-none "
               >
                 &rsaquo;
               </span>
@@ -83,7 +83,7 @@ const Experience = () => {
             </li>
             <li>
               <span
-                className="transform -translate-y-px select-none text-gray-500"
+                className="transform -translate-y-px select-none "
               >
                 &rsaquo;
               </span>
@@ -97,18 +97,18 @@ const Experience = () => {
       <section className="mb-2 break-inside-avoid border-b-2 border-gray-300">
         <header>
           <h3
-            className="text-md font-semibold text-gray-800 leading-snugish"
+            className="text-md font-semibold  leading-snugish"
           >
             Part time projects
           </h3>
-          <p className="leading-snugish text-sm text-gray-500">
+          <p className="leading-snugish text-sm ">
             Feb 2010 to present
           </p>
         </header>
-        <ul className="mt-2 font-normal text-md  text-gray-700 leading-snugish pl-3">
+        <ul className="mt-2 font-normal text-md   leading-snugish pl-3">
           <li>
             <span
-              className="transform -translate-y-px select-none text-gray-500"
+              className="transform -translate-y-px select-none "
             >
               &rsaquo;
             </span>
@@ -116,7 +116,7 @@ const Experience = () => {
           </li>
           <li>
             <span
-              className="transform -translate-y-px select-none text-gray-500"
+              className="transform -translate-y-px select-none "
             >
               &rsaquo;
             </span>

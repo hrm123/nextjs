@@ -7,16 +7,16 @@ const Header = () => {
           >
             <section className="block">
             
-              <h1 className="mb-0 text-5xl font-bold text-gray-700">
+              <h1 className="mb-0 text-5xl font-bold">
                 Rammohan Holagundi 
               </h1>
               <h2
-                className="m-0 ml-2 text-2xl font-semibold text-gray-700 leading-snugish"
+                className="m-0 ml-2 text-2xl font-semibold leading-snugish"
               >
                 Hands on full stack tech lead - Microsoft/Javascript stacks
               </h2>
               <h3
-                className="m-0 mt-2 ml-2 font-semibold text-lg text-gray-500 leading-snugish"
+                className="m-0 mt-2 ml-2 font-semibold text-lg  leading-snugish"
               >
                 San Diego, California
               </h3>

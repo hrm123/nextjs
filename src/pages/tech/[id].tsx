@@ -107,22 +107,23 @@ function TechnologyPage() {
   const router = useRouter();
   const selctedTech = router.query.id ? router.query.id[0] : '1';
   return (
-    <section className="min-w-full p-3 mx-auto my-auto bg-gray-100 border-4 border-gray-700 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white">
-        <Link href="/" className="float-right"><HomeIcon className="h-10 w-10 mx-2"/></Link>{ /* <div className="float-right"><ThemeSwitch /></div>  */}
-        <h1 className="mb-0 text-5xl font-bold text-gray-700">{`${techMap[selctedTech].title}`}</h1>
+    <section className="min-w-full p-3 mx-auto my-auto  
+     border-4 border-gray-700 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white">
+        <Link href="/" className="float-right"><HomeIcon className="h-10 w-10 mx-2"/></Link><div className="float-right"><ThemeSwitch /></div>
+        <h1 className="mb-0 text-5xl font-bold ">{`${techMap[selctedTech].title}`}</h1>
         {techMap[selctedTech].clients.map((client:any) => (
           <section key={client.id} className="mb-2 break-inside-avoid border-t-2 border-gray-300">
             <header>
               <h3
-                className="text-md font-semibold text-gray-800 leading-snugish "
+                className="text-md font-semibold  leading-snugish "
               >
                 {client.name}
               </h3>
-              <p className="leading-normal text-sm text-gray-500">
+              <p className="leading-normal text-sm ">
                 {client.dates}
               </p>
             </header>
-            <p className="text-md text-gray-800">
+            <p className="text-md ">
               {client.details}
             </p>
         </section>

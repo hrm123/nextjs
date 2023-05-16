@@ -11,7 +11,7 @@ return (
   {/* To keep in the same column */}
   <section className="break-inside-avoid">
     <h2
-      className="mb-2 text-lg font-bold tracking-widest text-gray-700 print:font-normal"
+      className="mb-2 text-lg font-bold tracking-widest  print:font-normal"
     >
       SKILLS
     </h2>

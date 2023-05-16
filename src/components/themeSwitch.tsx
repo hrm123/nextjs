@@ -33,7 +33,7 @@ const ThemeSwitch = () => {
       }
     },[theme]);
     */
-    
+    /*
     useEffect(()=>{
         let htmlEle = document.querySelector('html');
         if(!htmlEle){
@@ -45,17 +45,18 @@ const ThemeSwitch = () => {
           htmlEle.removeAttribute('native-dark-active');
         }
       },[theme]);
+      */
 
-    const ToggleTheme = () => {
+    const ToggleTheme = (newTheme: string) => {
         setTheme(theme == "dark"? 'light': 'dark')
     }
 
-    
+    const currentTheme = theme === "system" ? systemTheme : theme ;
     
     return (
         <>
-            {theme!=='dark' && <div onClick={ToggleTheme}><MoonIcon className="h-10 w-10 mx-2" /></div>}
-            {theme==='dark' && <div onClick={ToggleTheme}><SunIcon className="h-10 w-10 mx-2" /></div>}
+            {currentTheme!=='dark' && <div onClick={()=>ToggleTheme('dark')}><MoonIcon className="h-10 w-10 mx-2" /></div>}
+            {currentTheme==='dark' && <div onClick={()=>ToggleTheme('light')}><SunIcon className="h-10 w-10 mx-2" /></div>}
         </>
     );
 }
