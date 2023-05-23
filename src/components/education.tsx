@@ -10,7 +10,7 @@ return (
               {/* To keep in the same column */}
               <section className="break-inside-avoid">
                 <h2
-                  className="mb-2 text-lg font-bold tracking-widest text-gray-700 print:font-normal"
+                  className="mb-2 text-lg font-bold tracking-widest  print:font-normal"
                 >
                   EDUCATION
                 </h2>
@@ -18,19 +18,19 @@ return (
                 <section className="pb-4 mt-4 mb-4 border-b-2 break-inside-avoid">
                   <header>
                     <h3
-                      className="flex-grow text-lg font-semibold text-gray-700 leading-snugish"
+                      className="flex-grow text-lg font-semibold  leading-snugish"
                     >
                       Stanford University
                     </h3>
-                    <p className="leading-normal text-md text-gray-500">
-                      Algorithms Specialization
+                    <p className="leading-normal text-md ">
+                      <a href='https://www.coursera.org/account/accomplishments/specialization/certificate/5RZXGG8ZS4FC'>Algorithms Specialization</a>
                     </p>
                   </header>
                   
                   <p className="mt-1 leading-normal text-md text-gray-800"></p>
-                  <p className="leading-normal text-gray-700 text-md">
+                  <p className="leading-normal  text-md">
                     <span
-                      className="font-semibold text-gray-700 text-md leading-snugish"
+                      className="font-semibold  text-md leading-snugish"
                     >
                       GPA:
                     </span>
@@ -42,26 +42,26 @@ return (
                 <section className="mt-2  border-b-2 break-inside-avoid">
                   <header>
                     <h3
-                      className=" text-lg font-semibold text-gray-700 leading-snugish"
+                      className=" text-lg font-semibold  leading-snugish"
                     >
                       Indian Institute of technology, Kanpur
                     </h3>
-                    <p className="leading-normal text-md text-gray-500">
+                    <p className="leading-normal text-md ">
                       Master of Engineering
                     </p>
                   </header>
                   <p className="mt-1 leading-normal text-md text-gray-800">
                     <span
-                      className="font-semibold text-gray-700 text-md leading-snugish"
+                      className="font-semibold  text-md leading-snugish"
                     >
                       Major:
                     </span>
                     Mechanical Engineering
                   </p>
                   
-                  <p className="leading-normal text-gray-700 text-md">
+                  <p className="leading-normal  text-md">
                     <span
-                      className="font-semibold text-gray-700 text-md leading-snugish"
+                      className="font-semibold  text-md leading-snugish"
                     >
                       GPA:
                     </span>
@@ -73,25 +73,25 @@ return (
                 <section className="mt-4 break-inside-avoid">
                   <header>
                     <h3
-                      className="flex-grow text-lg font-semibold text-gray-700 leading-snugish"
+                      className="flex-grow text-lg font-semibold  leading-snugish"
                     >
                       Osmania University
                     </h3>
-                    <p className="leading-normal text-md text-gray-500">
+                    <p className="leading-normal text-md ">
                        Bachelors of Engineering
                     </p>
                   </header>
                   <p className="mt-1 leading-normal text-md text-gray-800">
                     <span
-                      className="font-semibold text-gray-700 text-md leading-snugish"
+                      className="font-semibold  text-md leading-snugish"
                     >
                       Subject:
                     </span>
                     Mechanical Engineering
                   </p>
-                  <p className="leading-normal text-gray-700 text-md">
+                  <p className="leading-normal  text-md">
                     <span
-                      className="font-semibold text-gray-700 text-md leading-snugish"
+                      className="font-semibold  text-md leading-snugish"
                     >
                       GPA:
                     </span>

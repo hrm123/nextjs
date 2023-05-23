@@ -85,7 +85,7 @@ module.exports = {
     margin: ["responsive", "last", "first"],
     padding: ["responsive", "last"],
   },
-
+  darkMode: 'class',
   plugins: [
     plugin(function ({ addBase, addUtilities, theme }) {
       addBase({

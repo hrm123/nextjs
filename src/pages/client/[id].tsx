@@ -1,3 +1,4 @@
+import React from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
@@ -6,6 +7,8 @@ import { useRouter } from 'next/router'
 import Header from '@/components/header'
 //@ts-ignore
 import { ChatIcon, HomeIcon, PhoneIcon } from "@heroicons/react/20/solid";
+import Link from 'next/link'
+import ThemeSwitch from '@/components/themeSwitch';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,6 +16,7 @@ const inter = Inter({ subsets: ['latin'] })
 const clientMap: { [id: string]: any} = {}
 clientMap['1'] = {
   title: 'Bank of America',
+  id: 1,
   projects : [
     {
       name: 'Senior Consultant - Skillstorm, NJ/remote ',
@@ -38,63 +42,89 @@ clientMap['1'] = {
 };
 
 clientMap['2'] = {
-  title: 'Angular Projects',
-  clients : [
+  title: 'GEP/NB Ventures',
+  id:2,
+  projects : [
     {
-      name: 'Senior Consultant - Bank of America/SkillStorm, Remote',
-      dates: 'Sep 2020 - Sep 2021',
-      details: 'Working on full SDLC of enterprise website (claims validations project)  using technologies like react, asp.net, c#, web apis, sql server'
-    },
-    {
-      name: 'Principal Software Engineer - NB Ventures/GEP',
+      name: 'Principal Software Engineer',
       dates: 'Jan 2020 - Mar 2020',
       details: 'Worked on developing/design/architecture for  supply chain planning product using .net core, angular, react native, C#, .net core web api (REST, Azure cloud, Entity Framework, Design patterns), sql server (Azure) and other technologies to develop a instant messaging system (angular, firebase, google cloud, nodejs) and design/framework/prototype for multi tenant mobile application (react native, redux, saga etc) using the concept of MicroFrontends and MicroServices'
+    }
+  ]
+  };
+
+clientMap['3'] = {
+  title: 'PwC',
+  id:3,
+  projects : [
+    {
+      name: 'Tech Lead - PwC/Infosys',
+      dates: 'Dec 2021 - Sep 2022',
+      details: 'Hands on tech lead creating Next Generation Audit website (Center of Excellence) is creating enterprise websites with latest architecture - React/Redux/C#/Azure/Micro Services/ gRPC,, web apis, sql server'
     },
     {
-      name: 'Senior Consultant - SealedAir/Invonto',
-      dates: 'Feb 2018 - May 2018',
-       details: ' Used technologies including angular 5/2/1, bootstrap 3, less, asp.net mvc 5, c#, git, Amazon web services, Hangfire, responsive site technologies, teamwork, springloops, sql server, visual studio 2015/2017 to migrating from angular 2.0 to 5.0, Combining angular 5 site with asp.net mvc website, performance of angular 1.4 and angular 2+ sites, angular material, login/session timeout management from SPA website, localization, performance improvements of asp.net mvc website and c# multithreading to speed up pdf exports and other middle tier processes'
-    },
-    {
-      name: 'Developer Level IV - Bank of America/TEK Systems',
-      dates: 'Feb 2017 - Jan 2018',
-       details: ' Design and  implementation of several views using Angular JS/asp.net mvc/kendo angular based UI for RAILS intranet website. Used concepts like angular views, routes, ngroute, uirouter, controllers, services, directives (for reusable business components) etc and asp.net views, controllers, partial views, bundling, and kendo angular widgets like grid, dropdown etc. Assigning work and coordinating offshore resource(s) for few tasks, production support and troubleshooting, communicating with BA team on daily basis to gather and clarify requirements and helping the team on testing setup'
-    },
+      name: 'Tech Lead - PwC/Infosys',
+      dates: 'Sep 2022 - May 2023',
+      details: 'Hands on tech lead working on design, architect, coding, dev-ops for next generation audit (Acceleration cecnter) website using technologies -  React, Redux Toolkit, Flux,  Typescript, Fluent UI (React),  webpack, SCSS, react bootstrap, C#, .NET core, Azure, Micro Frontends, CI/CD with azure devops, authentication & authorization, Microservices using gRPC/REST, C#, sql server, mongo'
+    }
   ]
   };
  
-  clientMap['3'] = {
-    title: 'React Native Projects',
-    clients : [
+  clientMap['4'] = {
+    title: 'Software Engineer II - Trade Station',
+    id:4,
+    projects : [
       {
-        name: 'SafeFinance - https://play.google.com/store/apps/details?id=com.portfoliodroid247.pitechworks.safefinance ',
-        dates: 'Sep 2018 - Sep 2020',
-        details: 'App that lets user to set time or price-based alerts for market tickers so that they can be alerted, and they can buy/sell the positions. Technologies : react native, redux, saga, axios, firebase, google functions, sqlite, Java/JUnit, React-testing-library, Mocha, Chai, firebase, google functions, omniscient etc '
-      },
-      {
-        name: 'Developer Level IV - NB Ventures - Field Service',
-        dates: 'Jan 2020 - Mar 2020',
-         details: 'Developed a react native multi-tenant iOS app framework for NB Ventures for Field Service / Supplychain Management project. Developed the app using the concept of micro frontend / multi tenant architecture.'
-      },
+        name: 'Tradestation.com ',
+        dates: 'Sep 2021 - Dec  2021',
+        details: 'Worked on developing/enhancing react screens, auth0 logon process for web site tradestation.com. Technologies – React, AWS, Gitlab, Auth0'
+      }
     ]
   };
 
-export default function ClientPage() {
+  clientMap['6'] = {
+    title: 'Senior Consultant - Moodys Analytics /  Sail Technologies',
+    id:6,
+    projects : [
+      {
+        name: 'Moodys website ',
+        dates: 'Sep 2021 - Dec  2021',
+        details: 'Worked on Moodys analytics website rewrite using technologies like ReactJS, Redux, Javascript/ES2015,  Babel, linting, Node.JS,  C#, HTML5, CSS3, LESS, asp.net mvc, web api, rally, agile, TDD (mocha, chai etc), Hapi server, SOA, Micro services. ' +
+        ' •	Developed React/Redux components to be used in various parts of the responsive screening and reporting web site. ' +
+        ' •	Talking to onsite BAs, offshore QA team, and scrum standups with team and project management being part of other daily tasks. ' 
+      }
+    ]
+  };
+
+  clientMap['8'] = {
+    title: 'Lead Consultant - Aetna',
+    id:8,
+    projects : [
+      {
+        name: 'Claims Validation website ',
+        dates: 'May 2020 - Sep  2020',
+        details: 'Working on full SDLC of enterprise website (claims validations project)  using technologies like react, asp.net, c#, web apis, sql server' 
+      }
+    ]
+  };
+
+function ClientPage() {
   const router = useRouter();
   const selectedClient = router.query.id ? router.query.id[0] : '1';
+  console.log({selectedClient})
   return (
-    <section className="max-w-3xl p-3 mx-auto my-auto bg-gray-100 border-4 border-gray-700 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white">
-        <a href="/" className="float-right"><HomeIcon className="h-4 w-4 mx-2"/></a>
-        <h1 className="mb-0 text-5xl font-bold text-gray-700">{`${clientMap[selectedClient].title}`}</h1>
+    <section className="min-w-full p-3 mx-auto my-auto  dark:bg-black dark:text-white  border-4 border-gray-700 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white">
+        <Link href="/" className="float-right"><HomeIcon className="h-10 w-10 mx-2"/></Link><div className="float-right"><ThemeSwitch /></div>
+        <h1 className="mb-0 text-5xl font-bold ">{`${clientMap[selectedClient].title}`}</h1>
         {clientMap[selectedClient].projects.map((client:any) => (
-          <section className="mb-2 break-inside-avoid border-t-2 border-gray-300">
+          <section key={client.id} className="mb-2 break-inside-avoid border-t-2 border-gray-300">
             <header>
               <h3
-                className="text-md font-semibold text-gray-800 leading-snugish "
+                className="text-md font-semibold  leading-snugish "
               >
                 {client.name}
               </h3>
-              <p className="leading-normal text-sm text-gray-500">
+              <p className="leading-normal text-sm ">
                 {client.dates}
               </p>
             </header>
@@ -107,3 +137,7 @@ export default function ClientPage() {
     </section>
   )
 }
+
+
+
+export default React.memo(ClientPage)
