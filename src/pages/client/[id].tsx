@@ -19,16 +19,19 @@ clientMap['1'] = {
   id: 1,
   projects : [
     {
+      id:1,
       name: 'Senior Consultant - Skillstorm, NJ/remote ',
       dates: 'Sep 2020 - Sep 2021',
       details: 'Working on full SDLC of enterprise website (GIS)  using technologies like angular 10, .net core, c#, web apis, sql server'
     },
     {
+      id:2,
       name: 'Senior Consultant - Mitchell Martin, NY ',
       dates: 'June 2018 – Dec 2019',
       details: 'Worked on developing server side SOA/ Micro Services design/architecture of mobile app ‘Insight’ for Bank of America. Work involved creating microservices, orchestrating microservices to consume data from different business groups, deployment, maintenance and production support. Main technologies used – C#, Angular, SQL server, Java, Mulesoft Anypoint Studio, Oracle. Developed a content management system framework using Angular 7/ MongoDB for codeweek. Developed a augmented video recording system using ArCore for codeweek. Created design for microservices Auth/throttling using JWT, design document for SOA layer, push notifications etc. and implemented these features. For Codeweek implemented augmented reality application (Arcore / video recording) along with streaming protobuf / grpc (hosted in AWS)'
     },
     {
+      id:3,
       name: 'Developer Level4  - TEK Systems, NY/NJ ',
       dates: 'June 2015 – Nov 2016',
       details: '•	UI development :- Design and  implementation of several views using Angular/asp.net mvc/kendo angular based UI for RAILS intranet website. Used concepts like angular views, routes, ngroute, uirouter, controllers, services, directives (for reusable business components) etc and asp.net views, controllers, partial views, bundling, and kendo angular widgets like grid, dropdown etc. ' +
@@ -46,6 +49,7 @@ clientMap['2'] = {
   id:2,
   projects : [
     {
+      id:1,
       name: 'Principal Software Engineer',
       dates: 'Jan 2020 - Mar 2020',
       details: 'Worked on developing/design/architecture for  supply chain planning product using .net core, angular, react native, C#, .net core web api (REST, Azure cloud, Entity Framework, Design patterns), sql server (Azure) and other technologies to develop a instant messaging system (angular, firebase, google cloud, nodejs) and design/framework/prototype for multi tenant mobile application (react native, redux, saga etc) using the concept of MicroFrontends and MicroServices'
@@ -58,11 +62,13 @@ clientMap['3'] = {
   id:3,
   projects : [
     {
+      id:1,
       name: 'Tech Lead - PwC/Infosys',
       dates: 'Dec 2021 - Sep 2022',
       details: 'Hands on tech lead creating Next Generation Audit website (Center of Excellence) is creating enterprise websites with latest architecture - React/Redux/C#/Azure/Micro Services/ gRPC,, web apis, sql server'
     },
     {
+      id:2,
       name: 'Tech Lead - PwC/Infosys',
       dates: 'Sep 2022 - May 2023',
       details: 'Hands on tech lead working on design, architect, coding, dev-ops for next generation audit (Acceleration cecnter) website using technologies -  React, Redux Toolkit, Flux,  Typescript, Fluent UI (React),  webpack, SCSS, react bootstrap, C#, .NET core, Azure, Micro Frontends, CI/CD with azure devops, authentication & authorization, Microservices using gRPC/REST, C#, sql server, mongo'
@@ -74,7 +80,8 @@ clientMap['3'] = {
     title: 'Software Engineer II - Trade Station',
     id:4,
     projects : [
-      {
+      {   
+        id:1,
         name: 'Tradestation.com ',
         dates: 'Sep 2021 - Dec  2021',
         details: 'Worked on developing/enhancing react screens, auth0 logon process for web site tradestation.com. Technologies – React, AWS, Gitlab, Auth0'
@@ -87,6 +94,7 @@ clientMap['3'] = {
     id:6,
     projects : [
       {
+        id:1,
         name: 'Moodys website ',
         dates: 'Sep 2021 - Dec  2021',
         details: 'Worked on Moodys analytics website rewrite using technologies like ReactJS, Redux, Javascript/ES2015,  Babel, linting, Node.JS,  C#, HTML5, CSS3, LESS, asp.net mvc, web api, rally, agile, TDD (mocha, chai etc), Hapi server, SOA, Micro services. ' +
@@ -101,6 +109,7 @@ clientMap['3'] = {
     id:8,
     projects : [
       {
+        id:1,
         name: 'Claims Validation website ',
         dates: 'May 2020 - Sep  2020',
         details: 'Working on full SDLC of enterprise website (claims validations project)  using technologies like react, asp.net, c#, web apis, sql server' 
@@ -110,34 +119,58 @@ clientMap['3'] = {
 
 function ClientPage() {
   const router = useRouter();
-  const selectedClient = router.query.id ? router.query.id[0] : '1';
-  console.log({selectedClient})
-  return (
-    <section className="min-w-full p-3 mx-auto my-auto  dark:bg-black dark:text-white  border-4 border-gray-700 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white">
-        <Link href="/" className="float-right"><HomeIcon className="h-10 w-10 mx-2"/></Link><div className="float-right"><ThemeSwitch /></div>
-        <h1 className="mb-0 text-5xl font-bold ">{`${clientMap[selectedClient].title}`}</h1>
-        {clientMap[selectedClient].projects.map((client:any) => (
-          <section key={client.id} className="mb-2 break-inside-avoid border-t-2 border-gray-300">
-            <header>
-              <h3
-                className="text-md font-semibold  leading-snugish "
-              >
-                {client.name}
-              </h3>
-              <p className="leading-normal text-sm ">
-                {client.dates}
-              </p>
-            </header>
-            <p className="text-md text-gray-800">
-              {client.details}
-            </p>
+    const selectedClient = router.query.id ? router.query.id[0] : '1';
+
+    return (
+        <section className="min-w-full p-3 mx-auto my-auto  dark:bg-black dark:text-white  border-4 border-gray-700 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white">
+            <Link href="/" className="float-right"><HomeIcon className="h-10 w-10 mx-2" /></Link><div className="float-right"><ThemeSwitch /></div>
+            <h1 className="mb-0 text-5xl font-bold ">{`${clientMap[selectedClient].title}`}</h1>
+            {clientMap[selectedClient].projects.map((client: any) => (
+                <section key={client.id + '' + selectedClient} className="mb-2 break-inside-avoid border-t-2 border-gray-300">
+                    <header>
+                        <h3
+                            className="text-md font-semibold  leading-snugish "
+                        >
+                            {client.name}
+                        </h3>
+                        <p className="leading-normal text-sm ">
+                            {client.dates}
+                        </p>
+                    </header>
+                    <p className="text-md text-gray-800">
+                        {client.details}
+                    </p>
+                </section>
+            ))}
+
         </section>
-        ))}
-        
-    </section>
-  )
+    );
+
 }
 
+export async function getStaticProps(context: any) {
+  const {id} = context.params;
+  return {
+    props:{
+      id
+    }
+  }
+}
 
+export async function getStaticPaths(context: any) {
+    return {
+
+        paths: [
+            { params: { id: '3' } },
+            { params: { id: '4' } },
+            { params: { id: '1' } },
+            { params: { id: '8' } },
+            { params: { id: '2' } },
+            { params: { id: '6' } },
+        ],
+        fallback: false
+    };
+
+}
 
 export default React.memo(ClientPage)

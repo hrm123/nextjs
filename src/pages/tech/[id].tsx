@@ -112,7 +112,7 @@ function TechnologyPage() {
         <Link href="/" className="float-right"><HomeIcon className="h-10 w-10 mx-2"/></Link><div className="float-right"><ThemeSwitch /></div>
         <h1 className="mb-0 text-5xl font-bold ">{`${techMap[selctedTech].title}`}</h1>
         {techMap[selctedTech].clients.map((client:any) => (
-          <section key={client.id} className="mb-2 break-inside-avoid border-t-2 border-gray-300">
+          <section key={client.id + '' + selctedTech} className="mb-2 break-inside-avoid border-t-2 border-gray-300">
             <header>
               <h3
                 className="text-md font-semibold  leading-snugish "
@@ -131,6 +131,29 @@ function TechnologyPage() {
         
     </section>
   )
+}
+
+
+export async function getStaticProps(context: any) {
+  const {id} = context.params;
+  return {
+    props:{
+      id
+    }
+  }
+}
+
+export async function getStaticPaths(context: any) {
+    return {
+
+        paths: [
+            { params: { id: '1' } },
+            { params: { id: '2' } },
+            { params: { id: '3' } },
+        ],
+        fallback: false
+    };
+
 }
 
 export default React.memo(TechnologyPage);
