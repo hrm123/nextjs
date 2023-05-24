@@ -31,7 +31,7 @@ const Experience = () => {
               >
                 &rsaquo;
               </span>
-              Developed high-quality  applications full software development life cycle for clients - <Link href="/client/3" className='underline'>PwC</Link>, <Link href="/client/4" className='underline'>Trade Station</Link>, <Link href="/client/1" className='underline'>Bank of America</Link>, <Link href="/client/8" className='underline'>Aetna</Link>, <Link href="/client/2" className='underline'>NB Ventures</Link>,Invonto, Verisk,<Link href="/client/6" className='underline'>Moodys Analytics</Link>
+              Developed high-quality  applications full software development life cycle for clients - <Link href="/client/3" className='underline'>PwC</Link>, <Link href="/client/4" className='underline'>Trade Station</Link>, <Link href="/client/1" className='underline'>Bank of America</Link>, <Link href="/client/8" className='underline'>Aetna</Link>, <Link href="/client/2" className='underline'>NB Ventures</Link>, <Link href="/client/10" className='underline'>Verisk</Link>, <Link href="/client/6" className='underline'>Moodys Analytics</Link>
             </li>
             <li>
               <span
@@ -71,7 +71,7 @@ const Experience = () => {
               >
                 &rsaquo;
               </span>
-              Developed high-quality  applications full software development life cycle for clients - City of NewYork, KPMG, Northpoint Solutions, Prudential, Citi Group, AIG, Credit Suisse, Ipreo, Redcats, Verizon
+              Developed high-quality  applications full software development life cycle for clients - City of NewYork, Invonto, KPMG, Northpoint Solutions, Prudential, Citi Group, AIG, Credit Suisse, Ipreo, Redcats, Verizon
             </li>
             <li>
               <span

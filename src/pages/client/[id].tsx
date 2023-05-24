@@ -117,9 +117,21 @@ clientMap['3'] = {
     ]
   };
 
+  clientMap['10'] = {
+    title: 'Senior Consultant - Verisk / SilverSearch',
+    id:10,
+    projects : [
+      {
+        id:1,
+        name: 'AplusAuto group of products',
+        dates: 'Feb 2017 - Jan  2018',
+        details: 'Coding .NET based Microservices using technologies like c#, async programming/pattern, .net framework 4.6.2, Elastic Search, NEST, springframework.net, git, sourcetree, bitbucket,  JIRA, Redis, RabbitMq etc. •	Also worked with for using nswag/swagger for documentation of services, newrelic for monitoring the response times etc., performance optimization, automapper , c# generics, Linq, Lambda, threading,  Plinq,  OOAD, SOA, TDD (nunit, moq etc),  log4net, nuget packages, resharper, open-source code etc. •	Agile project using git, source tree, JIRA, Confluence.' 
+      }
+    ]
+  };
 function ClientPage() {
   const router = useRouter();
-    const selectedClient = router.query.id ? router.query.id[0] : '1';
+    const selectedClient = router.query.id  ? (Array.isArray(router.query.id) ? router.query.id[0] : router.query.id)  : '1';
 
     return (
         <section className="min-w-full p-3 mx-auto my-auto  dark:bg-black dark:text-white  border-4 border-gray-700 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-o lg:h-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 lg:mt-6 rounded-2xl print:bg-white">
@@ -167,6 +179,7 @@ export async function getStaticPaths(context: any) {
             { params: { id: '8' } },
             { params: { id: '2' } },
             { params: { id: '6' } },
+            { params: { id: '10' } },
         ],
         fallback: false
     };
