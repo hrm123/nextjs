@@ -28,7 +28,7 @@ return (
                   </header>
                   
                   <p className="mt-1 leading-normal text-md text-gray-800"></p>
-                  <p className="leading-normal  text-md">
+                  <p className="leading-normal  text-md" hidden={true}>
                     <span
                       className="font-semibold  text-md leading-snugish"
                     >
@@ -38,7 +38,28 @@ return (
                   </p>
                 </section>
                 {/*school 2------------------------------------------------------------------------------------------*/}
-                
+                <section className="pb-4 mt-4 mb-4 border-b-2 break-inside-avoid">
+                  <header>
+                    <h3
+                      className="flex-grow text-lg font-semibold  leading-snugish"
+                    >
+                      University of Colorado Boulder
+                    </h3>
+                    <p className="leading-normal text-md ">
+                      <a className='underline' href='https://coursera.org/share/2ff901ce07bb657f7cc62a5fbb585fa4'>Algorithms Specialization</a>
+                    </p>
+                  </header>
+                  
+                  <p className="mt-1 leading-normal text-md text-gray-800"></p>
+                  <p className="leading-normal  text-md" hidden={true}>
+                    <span
+                      className="font-semibold  text-md leading-snugish"
+                    >
+                      GPA:
+                    </span>
+                    4.0
+                  </p>
+                </section>
                 <section className="mt-2  border-b-2 break-inside-avoid">
                   <header>
                     <h3
@@ -54,12 +75,12 @@ return (
                     <span
                       className="font-semibold  text-md leading-snugish"
                     >
-                      Major:
+                      Major:&nbsp; 
                     </span>
                     Mechanical Engineering
                   </p>
-                  
-                  <p className="leading-normal  text-md">
+                  <p className="mt-1 leading-normal text-md text-gray-800"></p>
+                  <p className="leading-normal  text-md" hidden={true}>
                     <span
                       className="font-semibold  text-md leading-snugish"
                     >
@@ -85,11 +106,12 @@ return (
                     <span
                       className="font-semibold  text-md leading-snugish"
                     >
-                      Subject:
+                      Major:&nbsp; 
                     </span>
                     Mechanical Engineering
                   </p>
-                  <p className="leading-normal  text-md">
+                  <p className="mt-1 leading-normal text-md text-gray-800"></p>
+                  <p className="leading-normal  text-md" hidden={true}>
                     <span
                       className="font-semibold  text-md leading-snugish"
                     >

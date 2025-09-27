@@ -58,7 +58,7 @@ clientMap['2'] = {
   };
 
 clientMap['3'] = {
-  title: 'PwC',
+  title: 'Infosys/PwC',
   id:3,
   projects : [
     {
@@ -72,6 +72,12 @@ clientMap['3'] = {
       name: 'Tech Lead - PwC/Infosys',
       dates: 'Sep 2022 - May 2023',
       details: 'Hands on tech lead working on design, architect, coding, dev-ops for next generation audit (Acceleration cecnter) website using technologies -  React, Redux Toolkit, Flux,  Typescript, Fluent UI (React),  webpack, SCSS, react bootstrap, C#, .NET core, Azure, Micro Frontends, CI/CD with azure devops, authentication & authorization, Microservices using gRPC/REST, C#, sql server, mongo'
+    },
+    {
+      id:2,
+      name: 'Tech Lead - Kia/Infosys',
+      dates: 'June 2023 - Dec 2023',
+      details: 'Worked on devops/support/feature development for kia vehicles website including triage issues/escalations with servicenow, gathering requirements and giving technical solutions, and assigning tasks to offshore team members. Technology – React, Azure, Kubernetes, mailgun, SQL server.'
     }
   ]
   };
@@ -129,6 +135,19 @@ clientMap['3'] = {
       }
     ]
   };
+
+  clientMap['11'] = {
+    title: 'Principal Engineer - Solar Turbines',
+    id:11,
+    projects : [
+      {
+        id:1,
+        name: 'Modernization of Turbotronic Tools',
+        dates: 'Dec 2023 - Sep  2025',
+        details: 'Rearchitecting/implementing Turbotronic tools applications (which were built using 20+ year old technologies) into highly performant (~10x to 40x speed improvements), maintainable applications using modern technologies - .NET8, C#, SQL server, Web services, React. Responsibilities include – architecting/implementing/production support of the applications, coordinating offshore team of developers / testers, onsite team of developers/testers, interacting with business users/leaders onsite to gather requirements and create innovative technical solutions for the requirements. Other responsibilities – Leading scrum calls, grooming backlog, code reviews, coding standards, ideas for Intern projects & mentoring junior team members, interns etc. Turbotronic tools are set of applications used throughout the lifecycle of Turbine affecting the mechanical, electrical & control system schematics and sales, support and delivery.' 
+      }
+    ]
+  };
 function ClientPage() {
   const router = useRouter();
     const selectedClient = router.query.id  ? (Array.isArray(router.query.id) ? router.query.id[0] : router.query.id)  : '1';
@@ -180,6 +199,7 @@ export async function getStaticPaths(context: any) {
             { params: { id: '2' } },
             { params: { id: '6' } },
             { params: { id: '10' } },
+            { params: { id: '11' } },
         ],
         fallback: false
     };

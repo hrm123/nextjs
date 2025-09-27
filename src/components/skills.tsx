@@ -23,17 +23,17 @@ return (
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
           >
-            <Link href="/tech/1" className='underline'>React</Link>/<Link href="/tech/2" className='underline'>Angular</Link>/Javascript/Typescript/Micro Frontends/<Link href="/tech/3" className='underline'>React Native</Link>/asp.net core/asp.net
+            <Link href="/tech/1" className='underline'>React</Link>/<Link href="/tech/2" className='underline'>Angular</Link>/Javascript/Typescript/Micro Frontends/<Link href="/tech/3" className='underline'>React Native</Link>/asp.net 
           </li>
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
           >
-            C#/.net core/.net/Micro Services/Multi threaded programming/Design patterns/C++
+            C#/.NET core/.NET Framework/C++/VB.NETMicro Services/Multi threaded programming/Design patterns/Application Architecture
           </li>
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
           >
-            Decent knowlege of Azure Devops/CI/CD/Containerization/Azure/AWS/Google cloud
+            Decent Experience with Azure/AWS/Google Cloud
           </li>
           <li
           className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
@@ -44,7 +44,7 @@ return (
         <li
           className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
         >
-          Agile/Xp/Scrum/JIRA/Project Management
+          Agile/Xp/Scrum/JIRA/Tech Lead / Project Management
         </li>
           </ul>
       </section>
