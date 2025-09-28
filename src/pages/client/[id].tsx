@@ -58,7 +58,7 @@ clientMap['2'] = {
   };
 
 clientMap['3'] = {
-  title: 'Infosys/PwC',
+  title: 'Infosys',
   id:3,
   projects : [
     {
