@@ -125,9 +125,8 @@ const Experience = () => {
             >
               &rsaquo;
             </span>
-            Several part time projects or courses/specializations - Algorithms Specialization with Stanford University,
-              Algorithms Specialization with University of Colorado Boulder,
-              C++ algorithms from UIUC, TDD/BDD, Nextjs, Ruby on Rails, etc 
+            Several part time courses/specializations - 
+              Algorithms, Machine Learning, Cloud Technologies, Distributed Systems, TDD/BDD etc 
           </li>
 
           

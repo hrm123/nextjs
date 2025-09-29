@@ -23,28 +23,34 @@ return (
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
           >
-            <Link href="/tech/1" className='underline'>React</Link>/<Link href="/tech/2" className='underline'>Angular</Link>/asp.net/.net core/.net framework/Micro Frontends/<Link href="/tech/3" className='underline'>React Native</Link> 
+           <span
+                        className="text-sm"
+                      >Frontend - </span><Link href="/tech/1" className='underline'>React</Link>/<Link href="/tech/2" className='underline'>Angular</Link>/asp.net/.net core/.net framework/Micro Frontends/<Link href="/tech/3" className='underline'>React Native</Link> 
           </li>
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
           >
-            C#/Javascript/Typescript/TSQL/cC++/VB.NET/Python/Java
+            <span
+                        className="text-sm"
+                      >Languages - </span>C#/Javascript/Typescript/TSQL/C++/VB.NET/Java/Python
           </li>
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
           >
-            Micro Services/Multi threaded programming/Design patterns/Application Architecture/ Azure, GCP, AWS
+            <span
+                        className="text-sm"
+                      >Server Side - </span>Micro Services/Parallel programming/Design patterns/Application Architecture/Azure/GCP/AWS
           </li>
           <li
           className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
         >
-          SQL server / Oracle / Elastic Search / Mongo / Firebase
+          <span className="text-sm">Database - </span>SQL server/Oracle/Postgres/Elastic Search/Mongo/Firebase
         </li>
         
         <li
           className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
         >
-          Tech Lead/Agile/Xp/Scrum/JIRA/Project Management
+          <span className="text-sm">Management - </span>Tech Lead/Agile/Xp/Scrum/JIRA/Project Management
         </li>
           </ul>
 
