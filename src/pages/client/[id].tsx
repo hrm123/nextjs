@@ -45,7 +45,7 @@ clientMap['1'] = {
 };
 
 clientMap['2'] = {
-  title: 'GEP/NB Ventures',
+  title: 'GEP/NB Ventures, NJ',
   id:2,
   projects : [
     {
@@ -63,19 +63,19 @@ clientMap['3'] = {
   projects : [
     {
       id:1,
-      name: 'Tech Lead - PwC/Infosys',
+      name: 'Tech Lead - PwC/Infosys - Remote',
       dates: 'Dec 2021 - Sep 2022',
       details: 'Hands on tech lead creating Next Generation Audit website (Center of Excellence) is creating enterprise websites with latest architecture - React/Redux/C#/Azure/Micro Services/ gRPC,, web apis, sql server'
     },
     {
       id:2,
-      name: 'Tech Lead - PwC/Infosys',
+      name: 'Tech Lead - PwC/Infosys - Remote',
       dates: 'Sep 2022 - May 2023',
       details: 'Hands on tech lead working on design, architect, coding, dev-ops for next generation audit (Acceleration cecnter) website using technologies -  React, Redux Toolkit, Flux,  Typescript, Fluent UI (React),  webpack, SCSS, react bootstrap, C#, .NET core, Azure, Micro Frontends, CI/CD with azure devops, authentication & authorization, Microservices using gRPC/REST, C#, sql server, mongo'
     },
     {
       id:2,
-      name: 'Tech Lead - Kia/Infosys',
+      name: 'Tech Lead - Kia/Infosys - CA',
       dates: 'June 2023 - Dec 2023',
       details: 'Worked on devops/support/feature development for kia vehicles website including triage issues/escalations with servicenow, gathering requirements and giving technical solutions, and assigning tasks to offshore team members. Technology – React, Azure, Kubernetes, mailgun, SQL server.'
     }
@@ -83,7 +83,7 @@ clientMap['3'] = {
   };
  
   clientMap['4'] = {
-    title: 'Software Engineer II - Trade Station',
+    title: 'Software Engineer II - Trade Station - Remote',
     id:4,
     projects : [
       {   
@@ -96,7 +96,7 @@ clientMap['3'] = {
   };
 
   clientMap['6'] = {
-    title: 'Senior Consultant - Moodys Analytics /  Sail Technologies',
+    title: 'Senior Consultant - Moodys Analytics /  Sail Technologies - NY',
     id:6,
     projects : [
       {
@@ -111,7 +111,7 @@ clientMap['3'] = {
   };
 
   clientMap['8'] = {
-    title: 'Lead Consultant - Aetna',
+    title: 'Lead Consultant - Aetna - Remote',
     id:8,
     projects : [
       {
@@ -124,7 +124,7 @@ clientMap['3'] = {
   };
 
   clientMap['10'] = {
-    title: 'Senior Consultant - Verisk / SilverSearch',
+    title: 'Senior Consultant - Verisk / SilverSearch - NJ',
     id:10,
     projects : [
       {
