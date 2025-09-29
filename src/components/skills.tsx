@@ -13,7 +13,7 @@ return (
     <h2
       className="mb-2 text-lg font-bold tracking-widest  print:font-normal"
     >
-      SKILLS
+      SKILLS<sup>*</sup>
     </h2>
     <section className="mb-0 break-inside-avoid">
       <section className="mt-1 last:pb-1">
@@ -23,30 +23,31 @@ return (
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
           >
-            <Link href="/tech/1" className='underline'>React</Link>/<Link href="/tech/2" className='underline'>Angular</Link>/Javascript/Typescript/Micro Frontends/<Link href="/tech/3" className='underline'>React Native</Link>/asp.net 
+            <Link href="/tech/1" className='underline'>React</Link>/<Link href="/tech/2" className='underline'>Angular</Link>/asp.net/.net core/.net framework/Micro Frontends/<Link href="/tech/3" className='underline'>React Native</Link> 
           </li>
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
           >
-            C#/.NET core/.NET Framework/C++/VB.NETMicro Services/Multi threaded programming/Design patterns/Application Architecture
+            C#/Javascript/Typescript/TSQL/cC++/VB.NET/Python/Java
           </li>
           <li
             className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
           >
-            Decent Experience with Azure/AWS/Google Cloud
+            Micro Services/Multi threaded programming/Design patterns/Application Architecture/ Azure, GCP, AWS
           </li>
           <li
           className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
         >
-          SQL server / Oracle / TSQL / Elastic Search / Mongo / Firebase
+          SQL server / Oracle / Elastic Search / Mongo / Firebase
         </li>
         
         <li
           className="p-1.5 mr-1.6 mb-1 text-white leading-relaxed print:bg-white print:border-inset bg-gray-800"
         >
-          Agile/Xp/Scrum/JIRA/Tech Lead / Project Management
+          Tech Lead/Agile/Xp/Scrum/JIRA/Project Management
         </li>
           </ul>
+
       </section>
     </section>
     </section>
