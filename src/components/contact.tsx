@@ -77,10 +77,7 @@ const Contact = () => {
                     <a href="mailto:hrammohan@yahoo.com" className="group">
                       <span
                         className="mr-8 text-lg font-semibold  leading-snugish"
-                      >
-                        Work Authorization:
-                      </span>
-                      Citizen of USA
+                      >Work Authorization:</span>Citizen of USA
                       <span
                         className="inline-block font-normal transition duration-100 ease-in  print: group-hover:"
                       >
