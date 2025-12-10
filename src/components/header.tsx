@@ -18,7 +18,7 @@ const Header = () => {
               <h3
                 className="m-0 mt-2 ml-2 font-semibold text-lg  leading-snugish"
               >
-                Location - Bay Area / San Diego, California
+                Location - San Francisco Bay Area, California
               </h3>
               
             </section>
